@@ -24,7 +24,7 @@ const List = ({courses,activeCourseId}:Props) => {
     }
 
     return (
-        <div className={cn("p-4 justify-center gap-x-2 gap-y-4 lg:gap-x-8 lg:grid-cols-3 grid grid-cols-2 ",
+        <div className={cn("p-4 justify-center gap-x-2 gap-y-4 lg:gap-x-8 lg:grid lg:grid-cols-3 flex flex-col ",
         )}>
             {courses.map((course,key:number)=>(
                 <Card onClick={onClick} disabled={pending} id={course.id} courseName={course.courseName} courseImage={course.courseImage} key={course.id}/>
