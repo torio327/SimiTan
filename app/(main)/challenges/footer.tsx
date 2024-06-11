@@ -12,7 +12,7 @@ const Footer = ({status,onCheck,pending}:Props) => {
 
     return (
         <>
-            <div className={"h-full mx-auto flex items-center gap-x-8 lg:gap-x-40 justify-between px-6 lg:px-10"}>
+            <div className={"h-full mx-auto flex items-center gap-y-4 flex-col lg:flex-row lg:gap-x-40 justify-between px-6 lg:px-10"}>
                 {status==="correct"&&(
                     <div className={"flex items-center gap-x-8"}>
                         <Circle className={"text-green-500 w-20 h-20"}/>

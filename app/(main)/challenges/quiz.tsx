@@ -144,8 +144,7 @@ const Quiz = ({challenges,initialPercentage,missChallengeProgress}: Props) => {
                     <h1 className="text-7xl text-center text-blue-500">Finish</h1>
                     {missChallenges[0]?(<h1 className={"text-4xl text-center text-rose-500"}>Check the words below again!</h1>): (
                         <h1 className={"text-4xl text-center text-yellow-400"}>Excellent Job!!</h1>)}
-                    <div className={"mx-auto justify-center  gap-6 grid grid-cols-2"}>
-
+                    <div className={"mx-auto justify-center gap-6 grid grid-cols-2"}>
                         {missChallenges.map((challenge) => (
                             <>
                                 <Card missChallenge={challenge}/>
