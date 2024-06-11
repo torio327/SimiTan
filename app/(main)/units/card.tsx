@@ -16,7 +16,7 @@ type Props ={
 const Card = ({unit,pending,onClick}:Props) => {
     return (
         <>
-            <div className={"h-20 flex items-center justify-center gap-x-4 lg:flex-row  lg:gap-x-40 border-2 border-blue-500 rounded-xl "} key={unit.id}>
+            <div className={"py-3 flex flex-col items-center justify-center gap-y-4 lg:flex-row  lg:gap-x-40 border-2 border-blue-500 rounded-xl "} key={unit.id}>
                 <div className={""}>
                     <UnitButton key={unit.id} id={unit.id} disabled={pending} unitName={unit.unitName}
                                 completed={unit.completed}
