@@ -1,3 +1,5 @@
+SimiTanは、同義語を使って英単語を学習するサイトです。
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
